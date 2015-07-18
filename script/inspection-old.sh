@@ -5,7 +5,7 @@ xterm -geometry 80x5+0+130 -e "/opt/ros/indigo/bin/roslaunch turtlebot_bringup 3
 sleep 10s
 xterm -geometry 80x5+0+390 -e "/opt/ros/indigo/bin/roslaunch dnavigation soundplay_node.launch" &
 sleep 5s
-xterm -geometry 80x5+0+650 -e "/opt/ros/indigo/bin/roslaunch turtlebot_navigation amcl_demo.launch map_file:=/home/demulab/myprog/src/0inspection/script/robocup2015.yaml" &
+xterm -geometry 80x5+0+650 -e "/opt/ros/indigo/bin/roslaunch turtlebot_navigation amcl_demo.launch map_file:=/home/demulab/myprog/src/dnavigation/script/robocup20150718.yaml" &
 sleep 10s
 xterm -geometry 80x5+0+780 -e "/opt/ros/indigo/bin/roslaunch turtlebot_rviz_launchers view_navigation.launch --screen" &
 sleep 10s
