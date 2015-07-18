@@ -1,0 +1,8 @@
+<launch>
+
+  <node name="recognizer" pkg="pocketsphinx" type="recognizer.py" output="screen">
+    <param name="lm" value="$(find dnavigation)/launch/dnavigation.lm"/>
+    <param name="dict" value="$(find dnavigation)/launch/dnavigation.dic"/>
+  </node>
+
+</launch>

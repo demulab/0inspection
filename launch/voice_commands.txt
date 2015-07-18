@@ -1,0 +1,5 @@
+pause speech
+continue speech
+kenseiko
+follow me
+leave the elevator

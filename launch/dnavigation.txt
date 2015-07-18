@@ -1,0 +1,7 @@
+mini
+kenseiko
+follow me
+leave
+start
+stop
+turn

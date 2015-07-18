@@ -1,0 +1,46 @@
+Language model created by QuickLM on Fri Feb  6 22:43:59 EST 2015
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 3 sentences and 8 words
+
+\data\
+ngram 1=8
+ngram 2=9
+ngram 3=6
+
+\1-grams:
+-0.9031 </s> -0.3010
+-0.9031 <s> -0.2430
+-1.3802 ELEVATOR -0.2430
+-1.3802 FOLLOW -0.2825
+-1.3802 KENSEIKOCHAN -0.2430
+-1.3802 LEAVE -0.2825
+-1.3802 ME -0.2430
+-1.3802 THE -0.2825
+
+\2-grams:
+-0.7782 <s> FOLLOW 0.0000
+-0.7782 <s> KENSEIKOCHAN 0.0000
+-0.7782 <s> LEAVE 0.0000
+-0.3010 ELEVATOR </s> -0.3010
+-0.3010 FOLLOW ME 0.0000
+-0.3010 KENSEIKOCHAN </s> -0.3010
+-0.3010 LEAVE THE 0.0000
+-0.3010 ME </s> -0.3010
+-0.3010 THE ELEVATOR 0.0000
+
+\3-grams:
+-0.3010 <s> FOLLOW ME
+-0.3010 <s> KENSEIKOCHAN </s>
+-0.3010 <s> LEAVE THE
+-0.3010 FOLLOW ME </s>
+-0.3010 LEAVE THE ELEVATOR
+-0.3010 THE ELEVATOR </s>
+
+\end\
